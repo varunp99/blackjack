@@ -1,0 +1,58 @@
+Installing Blackjack MS2 Release
+
+Varun Prakash (vp93) and Riya Jaggi (rj356)
+
+---
+
+The running of the the Release version of the Blackjack game. We are using
+text-based interactions between the player and the dealer (computer).
+Our code makes use of ANSITerminal and Emoji Packages. Please refer below for
+installing packages and running the game:
+  
+
+1.  To successfully run this program, please ensure you have downloaded
+OCaml packages as instructed on the CS 3110 Course Website.
+https://www.cs.cornell.edu/courses/cs3110/2020sp/install.html.
+The beta version uses ANSITerminal package.
+
+2. We also use the Emoji Package for displaying the visuals for the game. 
+Before running the program, please download the package using the following 
+command on terminal.
+
+    $ opam install emoji
+
+For more information about this package, the link is 
+https://github.com/fxfactorial/ocaml-emoji.
+
+3.  Please ensure you have unzipped the zip file from the CMSX and
+extracted all the files in a new directory. We use multiple modules for the
+program so all files must be in the same directory.
+
+4.  Open terminal/command line and type in the following commands:
+
+Move into the directory with the downloaded game files.
+
+    ```
+
+    $  cd /PATH/OF/DIR
+    $  make build
+    $  make play
+    
+    ```
+
+This will launch the game in terminal. Please make your terminal window wide to enjoy the game!
+
+Thank you for playing!
+
+---
+
+SOURCES:
+
+1. This game is text-based similar to A2 and A3 assignments. We too have modules
+for Command, State and Main.
+
+2. The code for Makefile, _tags, .merlin, .ocamlinit is from CS 3110 Course. It
+is modified to reflect our project modules and packages.
+
+3. Our ASCII art for the welcome message is adapted from
+http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Welcome.
