@@ -1,34 +1,23 @@
-Installing Blackjack MS2 Release
 
-Varun Prakash (vp93) and Riya Jaggi (rj356)
+Installing Blackjack
+Varun Prakash and Riya Jaggi
 
 ---
 
-The running of the the Release version of the Blackjack game. We are using
-text-based interactions between the player and the dealer (computer).
-Our code makes use of ANSITerminal and Emoji Packages. Please refer below for
-installing packages and running the game:
-  
+Our code makes use of ANSITerminal and Emoji Packages.
 
 1.  To successfully run this program, please ensure you have downloaded
-OCaml packages as instructed on the CS 3110 Course Website.
-https://www.cs.cornell.edu/courses/cs3110/2020sp/install.html.
-The beta version uses ANSITerminal package.
+OCaml packages as instructed on https://www.cs.cornell.edu/courses/cs3110/2020sp/install.html.
 
-2. We also use the Emoji Package for displaying the visuals for the game. 
-Before running the program, please download the package using the following 
+2. We also use the ANSITerminal and Emoji packages for displaying the visuals for the game. Before running the program, please download the package using the following 
 command on terminal.
 
-    $ opam install emoji
+    $  opam install emoji
+    $  opam install ansiterminal
 
-For more information about this package, the link is 
-https://github.com/fxfactorial/ocaml-emoji.
+For more information about this package, the link is https://github.com/fxfactorial/ocaml-emoji.
 
-3.  Please ensure you have unzipped the zip file from the CMSX and
-extracted all the files in a new directory. We use multiple modules for the
-program so all files must be in the same directory.
-
-4.  Open terminal/command line and type in the following commands:
+3.  Open command line and type in the following commands:
 
 Move into the directory with the downloaded game files.
 
@@ -48,11 +37,6 @@ Thank you for playing!
 
 SOURCES:
 
-1. This game is text-based similar to A2 and A3 assignments. We too have modules
-for Command, State and Main.
+1. Professor Nate Foster @ Cornell University.
 
-2. The code for Makefile, _tags, .merlin, .ocamlinit is from CS 3110 Course. It
-is modified to reflect our project modules and packages.
-
-3. Our ASCII art for the welcome message is adapted from
-http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Welcome.
+2. Our ASCII art for the welcome message is adapted from http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Welcome.
